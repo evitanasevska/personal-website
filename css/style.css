@@ -1,0 +1,519 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  color: #121212;
+  font-family: "IBM Plex Sans";
+}
+
+html h1,
+html h2,
+html h3, body h1,
+body h2,
+body h3 {
+  font-family: "Encode Sans";
+}
+
+.guide {
+  padding: 2.5% 15%;
+}
+
+#nav {
+  font-size: 16px;
+  padding: 10px 15%;
+  background-color: #121212;
+}
+
+#nav .navbar-brand img {
+  height: 50px;
+}
+
+#nav .nav-item {
+  padding-left: 1.5rem;
+}
+
+#nav .cv a {
+  color: #e576c6;
+  border: 2px solid #e576c6;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+}
+
+#nav .cv a:hover {
+  background-color: #e576c6;
+  text-decoration: none;
+  color: white;
+}
+
+#nav .nav-link {
+  padding: 0 5px;
+}
+
+#nav a {
+  color: white;
+}
+
+#nav a:hover {
+  text-decoration: line-through;
+  color: #121212;
+  -webkit-text-decoration-color: #121212;
+          text-decoration-color: #121212;
+  background-color: white;
+}
+
+#nav .navbar-brand:hover {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+}
+
+#intro {
+  position: relative;
+}
+
+#intro .row {
+  margin-left: 8.6%;
+}
+
+#intro h1 {
+  font-weight: 900;
+  font-size: 115px;
+  margin-bottom: 0px;
+}
+
+#intro p {
+  padding-left: 5px;
+  font-size: 20px;
+  width: 320px;
+  height: 127px;
+  line-height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.002em;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#intro .text {
+  padding-right: 0;
+}
+
+#intro .mountain {
+  position: absolute;
+  right: 1px;
+  top: 80px;
+}
+
+#intro .guide {
+  position: relative;
+  right: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#intro .guide .img {
+  max-width: 50%;
+}
+
+#intro .guide .img-pos {
+  text-align: right;
+  padding-right: 0;
+}
+
+#intro .guide .btn {
+  background-color: #79b768;
+  color: white;
+  padding: 5px 50px;
+  border-radius: 16px;
+  height: 50px;
+  font-weight: 600;
+}
+
+#intro .guide .btn:hover {
+  color: white;
+  background-color: #6ca55e;
+}
+
+#education {
+  padding-bottom: 10%;
+}
+
+#education h2 {
+  font-size: 54px;
+  line-height: 69px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.002em;
+  margin: 8px 0 13px;
+}
+
+#education p {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: -0.002em;
+}
+
+#education .text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#education .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#education .img-pos {
+  text-align: center;
+}
+
+#education .top {
+  color: #b476e5;
+}
+
+#education .bottom {
+  color: #e576c6;
+  padding-bottom: 10%;
+}
+
+#skills {
+  background-color: #ecf6ff;
+  font-size: 24px;
+}
+
+#skills h2 {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-size: 35px;
+}
+
+#skills .row {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+#skills .row ul {
+  margin: 0;
+  padding: 0;
+}
+
+#skills .row ul li {
+  list-style-type: none;
+}
+
+#skills .row .card {
+  border: none;
+  color: white;
+  border-radius: 20px;
+  background-color: transparent;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+#skills .row .one {
+  color: #6091E7;
+}
+
+#skills .row .two {
+  color: #b476e5;
+}
+
+#skills .row .three {
+  color: #e576c6;
+}
+
+#skills .img-pos {
+  position: relative;
+}
+
+#skills .img-pos .robot {
+  width: 15%;
+  position: absolute;
+  bottom: 10px;
+}
+
+#projects h1 {
+  text-align: center;
+  font-size: 200px;
+}
+
+#contact {
+  background-color: #ecf6ff;
+  text-align: center;
+  padding: 5%;
+}
+
+#contact h2 {
+  font-size: 35px;
+  padding: 15px;
+}
+
+#contact p {
+  font-size: 20px;
+  margin: auto;
+  width: 20%;
+  min-width: 300px;
+  padding-bottom: 25px;
+}
+
+#contact .btn {
+  padding: 5px 80px;
+  border-radius: 16px;
+  height: 50px;
+  font-weight: 600;
+  color: white;
+  background-color: #79b768;
+}
+
+#contact .btn:hover {
+  color: white;
+  background-color: #6ca55e;
+}
+
+#contact .icons {
+  padding-top: 15px;
+}
+
+#contact .icons span {
+  font-size: 30px;
+  padding: 7px;
+}
+
+#contact .icons span :hover {
+  color: #e576c6;
+  font-size: 32px;
+}
+
+@media (max-width: 900px) {
+  #nav {
+    font-size: 16px;
+  }
+  #nav .navbar-brand img {
+    height: 45px;
+  }
+  #intro {
+    overflow: hidden;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #intro .row {
+    margin-left: 0;
+  }
+  #intro .img {
+    height: 300px;
+  }
+  #intro .mountain {
+    max-width: 300%;
+    height: 500px;
+    top: 20px;
+    left: -400px;
+  }
+  #intro .guide {
+    padding: 10% 0 10% 20%;
+  }
+  #intro .text h1 {
+    font-size: 80px;
+    margin-bottom: 0px;
+  }
+  #intro .text p {
+    padding-left: 5px;
+    font-size: 16px;
+    width: 250px;
+    line-height: 26px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: -0.002em;
+    margin: 0;
+  }
+  #intro .text .btn {
+    font-size: 14px;
+    padding: 0px 20px;
+    border-radius: 13px;
+    height: 40px;
+  }
+  #education {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #education .text {
+    width: 500px;
+  }
+  #education .text h2 {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  #education .text p {
+    width: 300px;
+    font-size: 16px;
+    line-height: 28px;
+    margin: auto;
+  }
+  #education .img {
+    height: 300px;
+  }
+  #skills h2 {
+    font-size: 30px;
+  }
+  #skills ul {
+    font-size: 16px;
+  }
+  #skills .robot {
+    min-height: 300px;
+    min-width: 100px;
+    top: -350px;
+  }
+  #contact h2 {
+    font-size: 30px;
+  }
+  #contact p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  #intro {
+    overflow: hidden;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #intro .img {
+    height: 300px;
+    position: absolute;
+    right: 38%;
+  }
+  #intro .text {
+    margin-left: 52%;
+  }
+}
+
+@media (max-width: 449px) {
+  #nav {
+    font-size: 14px;
+  }
+  #intro .img {
+    height: 250px;
+    right: 35%;
+  }
+  #intro .text {
+    margin-left: 57%;
+  }
+  #intro .text h1 {
+    font-size: 60px;
+  }
+  #intro .text p {
+    padding-left: 5px;
+    font-size: 14px;
+    width: 220px;
+    line-height: 24px;
+  }
+  #intro .text .btn {
+    font-size: 14px;
+    padding: 0px 20px;
+    border-radius: 13px;
+    height: 40px;
+  }
+  #education {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #education .text {
+    width: auto;
+  }
+  #education .text h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  #education .text p {
+    width: auto;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0;
+    text-align: center;
+  }
+  #education .img {
+    height: 250px;
+  }
+  #skills h2 {
+    font-size: 26px;
+  }
+  #skills p {
+    font-size: 14px;
+  }
+  #contact h2 {
+    font-size: 26px;
+  }
+  #contact p {
+    width: 65%;
+    min-width: 50px;
+    font-size: 14px;
+  }
+  #contact .btn {
+    font-size: 14px;
+    padding: 5px 60px;
+  }
+}
+
+@media (max-width: 377px) {
+  #nav .navbar-brand img {
+    height: 35px;
+  }
+  #intro .img {
+    height: 200px;
+    top: 18%;
+    right: 27%;
+  }
+  #intro .text {
+    margin-left: 66%;
+  }
+  #intro .text h1 {
+    font-size: 50px;
+  }
+  #intro .text p {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    font-size: 14px;
+    width: 190px;
+    line-height: 24px;
+  }
+  #intro .text .btn {
+    font-size: 14px;
+    padding: 0px 20px;
+    border-radius: 13px;
+    height: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

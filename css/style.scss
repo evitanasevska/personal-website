@@ -1,0 +1,595 @@
+// Colors
+$black: #121212;
+$pink: #e576c6;
+$purple: #b476e5;
+$green: #79b768;
+$blue: #ecf6ff;
+
+//Fonts
+$font-title: "Encode Sans";
+$font-body: "IBM Plex Sans";
+
+//General
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    color: $black;
+    font-family: $font-body;
+  h1,
+  h2,
+  h3 {
+    font-family: $font-title;
+  }
+}
+
+.guide {
+  padding: 2.5% 15%;
+}
+
+//NavBar
+
+#nav {
+  font-size: 16px;
+  padding: 10px 15%;
+  background-color: $black;
+
+  .navbar-brand {
+    img {
+        height: 50px;
+    }
+  }
+
+  .nav-item {
+    padding-left: 1.5rem;
+  }
+
+  .cv{
+      a {
+        color: $pink;
+        border: 2px solid $pink;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 8px;
+        &:hover {
+            background-color: $pink;
+            text-decoration: none;
+            color: white;
+
+        }
+      }
+  }
+
+  .nav-link {
+    padding: 0 5px;
+  }
+
+  a {
+    color: white;
+    &:hover {
+      text-decoration: line-through;
+      color: $black;
+      text-decoration-color: $black;
+      background-color: white;
+    }
+  }
+
+  .navbar-brand:hover {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+  }
+}
+
+//Intro
+
+#intro {
+    position: relative;
+
+  .row {
+      margin-left: 8.6%;
+    }
+
+  h1 {
+    font-weight: 900;
+    font-size: 115px;
+    margin-bottom: 0px;
+    
+  }
+
+  p {
+    padding-left: 5px;
+    font-size: 20px;
+    width: 320px;
+    height: 127px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.002em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .text {
+      padding-right: 0;
+  }
+
+  .mountain {
+    position: absolute;
+    right: 1px;
+    top: 80px;
+  }
+
+  .guide {
+    position: relative;
+    right: 150px;
+    align-items: center;
+
+    .img {
+        // width: 30%;
+        max-width: 50%;
+    }
+
+    .img-pos {
+        text-align: right;
+        padding-right: 0;
+      }
+
+    .btn {
+        background-color: $green;
+        color: white;   
+        padding: 5px 50px;
+        border-radius: 16px;
+        height: 50px;
+        font-weight: 600;
+    }
+    
+    .btn:hover {
+        color: white;
+        background-color: #6ca55e;
+    }
+  }
+
+}
+
+//Education
+
+#education {
+
+    padding-bottom: 10%;
+
+    h2 {
+        font-size: 54px;
+        line-height: 69px;
+        align-items: center;
+        letter-spacing: -0.002em;
+        margin: 8px 0 13px;
+    }
+
+    p {
+        padding: 0;
+        margin: 0;
+        font-size: 24px;
+        line-height: 35px;
+        letter-spacing: -0.002em;
+    }
+
+    .text {
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .img-pos {
+        text-align: center;
+    }
+
+    .top {
+ 
+        color: $purple;
+    }
+
+    .bottom {
+        color: $pink;
+        padding-bottom: 10%;
+    }
+}
+
+#skills {
+    background-color: $blue;
+    font-size: 24px;
+
+    h2 {
+        padding-top: 5%;
+        padding-bottom: 3%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .row {
+        padding-top: 2%;
+        padding-bottom: 5%;
+        text-align: center;
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                list-style-type: none;
+            }
+        }
+
+        .card {
+            border: none;
+            color: white;
+            border-radius: 20px;
+            background-color: transparent;
+            white-space: nowrap;
+            margin: 0;
+            padding: 0;
+        }
+
+        .one {
+            color: #6091E7;
+        }
+
+        .two {
+            color: $purple;
+        }
+
+        .three {
+            color: $pink;
+        }
+    }
+
+    .img-pos {
+        position: relative;
+        .robot {
+            width: 15%;
+            position: absolute;
+            bottom: 10px;
+    
+        }
+    }
+}
+
+#projects {
+    h1 {
+        text-align: center;
+        font-size: 200px;
+    }
+}
+
+#contact {
+    background-color: $blue;
+    text-align: center;
+    padding: 5%;
+
+    h2 {
+        font-size: 35px;
+        padding: 15px;
+    }
+    
+    p {
+        font-size: 20px;
+        margin: auto;
+        width: 20%;
+        min-width: 300px;
+        padding-bottom: 25px;
+    }
+
+    .btn {
+        //background-color: transparent;
+        // color: $green;   
+        padding: 5px 80px;
+        // border: 2px;
+        // border: 3px solid $green;
+        border-radius: 16px;
+        height: 50px;
+        font-weight: 600;
+        color: white;
+        background-color: $green;
+    }
+    
+    .btn:hover {
+        color: white;
+        background-color: #6ca55e;
+    }
+
+    .icons {
+        padding-top: 15px;
+        span {
+            font-size: 30px;
+            padding: 7px;
+            :hover {
+                color: $pink;
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+// footer {
+//     background-color: #CADDF8;
+//     text-align: center;
+//     p {
+//         margin: 0;
+//         font-size: 12px;
+//     }
+// }
+
+@media (max-width: 900px) {
+    
+    ///NavBar
+    #nav {
+        font-size: 16px;
+        .navbar-brand {
+            img {
+                height: 45px;
+            }
+          }
+    }
+
+    //Intro
+
+    #intro {
+        overflow: hidden;
+        object-fit: cover;
+
+        .row {
+            margin-left: 0;
+        }
+
+        .img {
+            height: 300px;
+        }
+
+        .mountain{
+            max-width: 300%;
+            height: 500px;
+            top: 20px;
+            left: -400px;
+        }
+
+        .guide {
+            padding: 10% 0 10% 20%;
+        }
+
+        .text {
+            h1 {
+                font-size: 80px;
+                margin-bottom: 0px;
+                
+              }
+            
+              p {
+                padding-left: 5px;
+                font-size: 16px;
+                width: 250px;
+                line-height: 26px;
+                display: flex;
+                align-items: center;
+                letter-spacing: -0.002em;
+                margin: 0;
+              }
+
+              .btn {
+                font-size: 14px;
+                padding: 0px 20px;
+                border-radius: 13px;
+                height: 40px;
+              }
+        }
+
+    }
+
+    //Education
+
+    #education {
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        .text{
+            width: 500px;
+            h2 {
+                font-size: 34px;
+                line-height: 45px;
+            }
+        
+            p {
+                width: 300px;
+                font-size: 16px;
+                line-height: 28px;
+                margin: auto;
+            }
+        }
+
+        .img {
+            height: 300px;
+        }
+    }
+
+    //Skills
+
+    #skills {
+
+        h2 {
+            font-size: 30px;
+        }
+        ul {
+            font-size: 16px;
+        }
+
+        .robot {
+            min-height: 300px;
+            min-width: 100px;
+            top: -350px;
+        }
+    }
+
+    #contact {
+        
+        h2 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+    }
+}
+
+@media (max-width: 575px) {
+    #intro {
+        overflow: hidden;
+        object-fit: cover;
+
+        .img {
+            height: 300px;
+            position: absolute;
+            right: 38%;
+        }
+
+        .text {
+            margin-left: 52%;
+        }
+
+    }
+}
+
+@media (max-width: 449px){
+    #nav {
+        font-size: 14px;
+    }
+
+    #intro {
+
+        .img {
+            height: 250px;
+            right: 35%;
+        }
+
+        .text {
+            margin-left: 57%;
+            h1 {
+                font-size: 60px;                
+              }
+            
+              p {
+                padding-left: 5px;
+                font-size: 14px;
+                width: 220px;
+                line-height: 24px;
+              }
+
+              .btn {
+                font-size: 14px;
+                padding: 0px 20px;
+                border-radius: 13px;
+                height: 40px;
+              }
+        }
+    }
+
+    #education {
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        .text{
+            width: auto;
+            h2 {
+                font-size: 26px;
+                line-height: 36px;
+            }
+        
+            p {
+                width: auto;
+                font-size: 14px;
+                line-height: 26px;
+                margin: 0;
+                text-align: center;
+            }
+        }
+
+        .img {
+            height: 250px;
+        }
+    }
+
+    #skills {
+        h2 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    #contact {
+        h2 {
+            font-size: 26px;
+        }
+
+        p {
+            width: 65%;
+            min-width: 50px;
+            font-size: 14px;
+        }
+
+        .btn {
+            font-size: 14px;
+            padding: 5px 60px;
+        }
+    }
+}
+
+@media (max-width: 377px){
+    #nav{
+        .navbar-brand {
+            img {
+                height: 35px;
+            }
+          }
+    }
+    #intro {
+
+        .img {
+            height: 200px;
+            top: 18%;
+            right: 27%;
+        }
+
+        .text {
+            margin-left: 66%;
+            h1 {
+                font-size: 50px;                
+              }
+            
+              p {
+                padding-top: 5px;
+                padding-bottom: 15px;
+                padding-left: 5px;
+                font-size: 14px;
+                width: 190px;
+                line-height: 24px;
+              }
+
+              .btn {
+                font-size: 14px;
+                padding: 0px 20px;
+                border-radius: 13px;
+                height: 40px;
+              }
+        }
+    }
+}
